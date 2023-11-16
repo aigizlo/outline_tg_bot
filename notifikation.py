@@ -119,7 +119,7 @@ def payment_notification():
 @app.route('/notifi_payment_fropay', methods=['POST'])
 def payment_status():
     shop_id = '3510'  # ID кассы
-    secret_key = '9uxfltmav7or5q3'  # Секретный ключ в настройках кассы
+    secret_key = ''  # Секретный ключ в настройках кассы
 
     try:
         data = request.form
