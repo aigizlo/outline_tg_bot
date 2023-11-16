@@ -7,16 +7,14 @@ from outline_api import (
     Manager)
 
 #Настройки бота
-token = '6820291522:AAHbWTF-zSlL3bIdDqmjqSajYBsGbueRlQs'
+token = ''
 
-bot_name = 'offradar_VPNbot'
+bot_name = ''
 
 
-# token = '6074035686:AAEWCJFAsnRdOBBRNNtl56Ef-wed8m-ucZg'
-#
-# bot_name = 'outlinexbot'
+
 # #
-support = "@off_radar_support"
+support = ""
 
 # aiogram
 bot = Bot(token=token)
@@ -33,33 +31,33 @@ project_id = '12622'
 
 # Указываем Merchant ID и Secret Key от Free_kassa
 
-secret_word1 = 'DP.oy$a]CsVB=)B'
-secret_word2 = '$w$79)98%^u9}tj'
-free_kassa_merchant_id = '40657'
+secret_word1 = 
+secret_word2 = 
+free_kassa_merchant_id = 
 
 
 # fropay
-secret_key_fropay = '9uxfltmav7or5q3'
-public_key_fropay = 'e4896kmtqs3xvz0'
-shop_id_fropay = '3510'
+secret_key_fropay = 
+public_key_fropay = 
+shop_id_fropay = 
 
 
 # данные для подлкючения к бд
 host = "localhost"
-user = "aigiz"
-password = "Imaroot1"
+user = ""
+password = ""
 database = "outline"
 
 # данные для подключения к менеджеру outline
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # cервер номер 1 Nederland
-apiurl_amsterdam = "https://212.118.53.231:40863/tUVEBiy0F8Qm8zyC8VXrjg"
-apicrt_amsterdam = "744393954-c8cc-4d71-bbc0-378914440ed3"
+apiurl_amsterdam = ""
+apicrt_amsterdam = ""
 
 # сервер номер 2 Germany
-apiurl_germany = "https://89.208.103.199:3509/SmiTzdKTj715pmUI-2mCbg"
-apicrt_germany = "adb4d844-ccf5-4a47-a2aa-008091a544fe"
+apiurl_germany = ""
+apicrt_germany = ""
 
 # сервер номер 3 Kazahstan
 apiurl_kz = "https://188.225.31.86:3768/23V3Fbs0ttuPiYWf1TCq5A"
@@ -74,8 +72,8 @@ apiurl_turkey = "https://185.219.134.225:1719/FyENbYMQxz_W9UTK_sEnzA"
 apicrt_turkey = "83e234a9-7b7e-4f95-b6de-7f0022e89de8"
 
 # сервер номер 6 usa
-apiurl_usa = 'https://95.181.173.94:8144/dWPpXIf-atl26uKXOIx11A'
-apicrt_usa = '60c9b375-b206-40ca-a637-c6b911759e00'
+apiurl_usa = ''
+apicrt_usa = ''
 
 manager_amsterdam = Manager(apiurl=apiurl_amsterdam, apicrt=apicrt_amsterdam)
 
@@ -129,6 +127,4 @@ two_month = 269
 three_month = 380
 six_month = 630
 
-# api_wallet = "boPvJGD9zMPvFUqVltLpe96sFF5lcd8pciC3"
 
-# INSERT INTO server server_id = 6, name = 'Los Angeleg', country = 'USA';
